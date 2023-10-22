@@ -182,10 +182,21 @@
         >
 
         <Button
+            android:id="@+id/btnDot"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:text="."
+            android:onClick="onDecimalPoint"
+            android:background="@drawable/radius"
+            />
+
+        <Button
             android:id="@+id/btnZero"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="2"
+            android:layout_weight="1"
             android:layout_margin="2dp"
             android:text="@string/_0"
             android:onClick="onDigit"
@@ -218,8 +229,19 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <Button
+            android:id="@+id/btnEqual"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:text="="
+            android:onClick="onDigit"
+            android:background="@drawable/radius"
+            />
     </LinearLayout>
 
 </LinearLayout>
