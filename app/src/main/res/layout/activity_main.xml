@@ -65,7 +65,7 @@
             android:layout_weight="1"
             android:layout_margin="2dp"
             android:text="@string/divide"
-            android:onClick="onDigit"
+            android:onClick="onOperator"
             android:background="@drawable/radius"
             />
 
@@ -117,7 +117,7 @@
             android:layout_weight="1"
             android:layout_margin="2dp"
             android:text="@string/gop"
-            android:onClick="onDigit"
+            android:onClick="onOperator"
             android:background="@drawable/radius"
             />
 
@@ -188,7 +188,7 @@
             android:layout_weight="1"
             android:layout_margin="2dp"
             android:text="."
-            android:onClick="onDecimalPoint"
+            android:onClick="onOperator"
             android:background="@drawable/radius"
             />
 
@@ -221,7 +221,7 @@
             android:layout_weight="1"
             android:layout_margin="2dp"
             android:text="@string/plus"
-            android:onClick="onDigit"
+            android:onClick="onOperator"
             android:background="@drawable/radius"
             />
 
