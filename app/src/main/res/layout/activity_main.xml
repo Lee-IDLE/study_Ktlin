@@ -168,8 +168,8 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:layout_margin="2dp"
-            android:text="@string/divide"
-            android:onClick="onDigit"
+            android:text="@string/minus"
+            android:onClick="onOperator"
             android:background="@drawable/radius"
             />
 
@@ -239,7 +239,7 @@
             android:layout_weight="1"
             android:layout_margin="2dp"
             android:text="="
-            android:onClick="onDigit"
+            android:onClick="onEqual"
             android:background="@drawable/radius"
             />
     </LinearLayout>
